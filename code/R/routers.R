@@ -27,10 +27,10 @@ function(actor, repository, push) {
   sink(file = "log.Rout", append = TRUE)
   timestamp()
   print(sessionInfo())
-  print(rule(left = "Results", width = 60))
-  print(toJSON(actor, pretty = TRUE))
-  print(toJSON(repository, pretty = TRUE))
-  print(toJSON(push, pretty = TRUE))
+  print(cli::rule(left = "Results", width = 60))
+  print(jsonlite::toJSON(actor, pretty = TRUE))
+  print(jsonlite::toJSON(repository, pretty = TRUE))
+  print(jsonlite::toJSON(push, pretty = TRUE))
   sink()
   
 }
