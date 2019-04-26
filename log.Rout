@@ -1,0 +1,470 @@
+##------ Wed Sep 26 18:30:48 2018 ------##
+R version 3.2.3 (2015-12-10)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 16.04.5 LTS
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  base     
+
+other attached packages:
+[1] plumber_0.4.6
+
+loaded via a namespace (and not attached):
+ [1] magrittr_1.5   R6_2.2.2       promises_1.0.1 later_0.7.4    tools_3.2.3   
+ [6] Rcpp_0.12.18   crayon_1.3.4   stringi_1.2.4  methods_3.2.3  jsonlite_1.5  
+[11] httpuv_1.4.5  
+── Results ─────────────────────────────────────────────────
+["Owner"] 
+["Repository"] 
+{
+  "changes": [
+    {
+      "new": {
+        "type": "branch",
+        "name": "name-of-branch",
+        "target": {
+          "type": "commit",
+          "hash": "709d658dc5b6d6afcd46049c2f332ee3f515a67d",
+          "author": "User",
+          "message": "new commit message\n",
+          "date": "2015-06-09T03:34:49+00:00",
+          "parents": [
+            {
+              "type": "commit",
+              "hash": "1e65c05c1d5171631d92438a13901ca7dae9618c",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commit/8cbbd65829c7ad834a97841e0defc965718036a0"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/user_name/repo_name/commits/8cbbd65829c7ad834a97841e0defc965718036a0"
+                }
+              }
+            }
+          ],
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commit/c4b2b7914156a878aa7c9da452a09fb50c2091f2"
+            },
+            "html": {
+              "href": "https://bitbucket.org/user_name/repo_name/commits/c4b2b7914156a878aa7c9da452a09fb50c2091f2"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/refs/branches/master"
+          },
+          "commits": {
+            "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commits/master"
+          },
+          "html": {
+            "href": "https://bitbucket.org/user_name/repo_name/branch/master"
+          }
+        }
+      },
+      "old": {
+        "type": "branch",
+        "name": "name-of-branch",
+        "target": {
+          "type": "commit",
+          "hash": "1e65c05c1d5171631d92438a13901ca7dae9618c",
+          "author": "User",
+          "message": "old commit message\n",
+          "date": "2015-06-08T21:34:56+00:00",
+          "parents": [
+            {
+              "type": "commit",
+              "hash": "e0d0c2041e09746be5ce4b55067d5a8e3098c843",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commit/9c4a3452da3bc4f37af5a6bb9c784246f44406f7"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/user_name/repo_name/commits/9c4a3452da3bc4f37af5a6bb9c784246f44406f7"
+                }
+              }
+            }
+          ],
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commit/b99ea6dad8f416e57c5ca78c1ccef590600d841b"
+            },
+            "html": {
+              "href": "https://bitbucket.org/user_name/repo_name/commits/b99ea6dad8f416e57c5ca78c1ccef590600d841b"
+            }
+          }
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/refs/branches/master"
+          },
+          "commits": {
+            "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commits/master"
+          },
+          "html": {
+            "href": "https://bitbucket.org/user_name/repo_name/branch/master"
+          }
+        }
+      },
+      "links": {
+        "html": {
+          "href": "https://bitbucket.org/user_name/repo_name/branches/compare/c4b2b7914156a878aa7c9da452a09fb50c2091f2..b99ea6dad8f416e57c5ca78c1ccef590600d841b"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/diff/c4b2b7914156a878aa7c9da452a09fb50c2091f2..b99ea6dad8f416e57c5ca78c1ccef590600d841b"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/user_name/repo_name/commits?include=c4b2b7914156a878aa7c9da452a09fb50c2091f2&exclude=b99ea6dad8f416e57c5ca78c1ccef590600d841b"
+        }
+      },
+      "created": false,
+      "forced": false,
+      "closed": false,
+      "commits": [
+        {
+          "hash": "03f4a7270240708834de475bcf21532d6134777e",
+          "type": "commit",
+          "message": "commit message\n",
+          "author": "User",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/user/repo/commit/03f4a7270240708834de475bcf21532d6134777e"
+            },
+            "html": {
+              "href": "https://bitbucket.org/user/repo/commits/03f4a7270240708834de475bcf21532d6134777e"
+            }
+          }
+        }
+      ],
+      "truncated": false
+    }
+  ]
+} 
+##------ Wed Sep 26 18:37:28 2018 ------##
+R version 3.2.3 (2015-12-10)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 16.04.5 LTS
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  base     
+
+other attached packages:
+[1] plumber_0.4.6
+
+loaded via a namespace (and not attached):
+ [1] assertthat_0.2.0 magrittr_1.5     R6_2.2.2         cli_1.0.1       
+ [5] promises_1.0.1   later_0.7.4      tools_3.2.3      Rcpp_0.12.18    
+ [9] crayon_1.3.4     stringi_1.2.4    methods_3.2.3    jsonlite_1.5    
+[13] httpuv_1.4.5    
+── Results ─────────────────────────────────────────────────
+{
+  "username": ["fjuniorr"],
+  "display_name": ["Francisco Alves"],
+  "account_id": ["557058:6fa18923-3931-42d1-9c49-ff5d303b03f5"],
+  "links": {
+    "self": {
+      "href": ["https://api.bitbucket.org/2.0/users/fjuniorr"]
+    },
+    "html": {
+      "href": ["https://bitbucket.org/fjuniorr/"]
+    },
+    "avatar": {
+      "href": ["https://bitbucket.org/account/fjuniorr/avatar/"]
+    }
+  },
+  "type": ["user"],
+  "uuid": ["{e80acf8e-5750-4aae-8694-f3e107a7a7bf}"]
+} 
+{
+  "scm": ["git"],
+  "website": [""],
+  "name": ["pessoal"],
+  "links": {
+    "self": {
+      "href": ["https://api.bitbucket.org/2.0/repositories/dcgf/pessoal"]
+    },
+    "html": {
+      "href": ["https://bitbucket.org/dcgf/pessoal"]
+    },
+    "avatar": {
+      "href": ["https://bytebucket.org/ravatar/%7Ba7089cce-d32c-4388-87f9-1137b34cccdf%7D?ts=default"]
+    }
+  },
+  "project": {
+    "links": {
+      "self": {
+        "href": ["https://api.bitbucket.org/2.0/teams/dcgf/projects/PROJ"]
+      },
+      "html": {
+        "href": ["https://bitbucket.org/account/user/dcgf/projects/PROJ"]
+      },
+      "avatar": {
+        "href": ["https://bitbucket.org/account/user/dcgf/projects/PROJ/avatar/32"]
+      }
+    },
+    "type": ["project"],
+    "uuid": ["{4d6d4e54-8a2b-4b00-954a-dcc88b6b6cc1}"],
+    "key": ["PROJ"],
+    "name": ["Untitled project"]
+  },
+  "full_name": ["dcgf/pessoal"],
+  "owner": {
+    "username": ["dcgf"],
+    "type": ["team"],
+    "display_name": ["DCGF"],
+    "uuid": ["{dab263e4-c561-4196-a9eb-855eddb22522}"],
+    "links": {
+      "self": {
+        "href": ["https://api.bitbucket.org/2.0/teams/dcgf"]
+      },
+      "html": {
+        "href": ["https://bitbucket.org/dcgf/"]
+      },
+      "avatar": {
+        "href": ["https://bitbucket.org/account/dcgf/avatar/"]
+      }
+    }
+  },
+  "type": ["repository"],
+  "is_private": [true],
+  "uuid": ["{a7089cce-d32c-4388-87f9-1137b34cccdf}"]
+} 
+{
+  "changes": [
+    {
+      "forced": false,
+      "old": {
+        "target": {
+          "hash": "30efb8de8e94ad98d5ee2c881663419c652ae1dc",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+            },
+            "html": {
+              "href": "https://bitbucket.org/dcgf/pessoal/commits/30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+            }
+          },
+          "author": {
+            "raw": "Mariana Mendes <mariana.gomes@planejamento.mg.gov.br>",
+            "type": "author"
+          },
+          "summary": {
+            "raw": "altera vignete\n",
+            "markup": "markdown",
+            "html": "<p>altera vignete<\/p>",
+            "type": "rendered"
+          },
+          "parents": [
+            {
+              "type": "commit",
+              "hash": "abb6e2cab82f5c4f9b7093ab34c4ba23973e6a36",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/abb6e2cab82f5c4f9b7093ab34c4ba23973e6a36"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/dcgf/pessoal/commits/abb6e2cab82f5c4f9b7093ab34c4ba23973e6a36"
+                }
+              }
+            }
+          ],
+          "date": "2016-06-09T18:18:29+00:00",
+          "message": "altera vignete\n",
+          "type": "commit"
+        },
+        "links": {
+          "commits": {
+            "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commits/master"
+          },
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/refs/branches/master"
+          },
+          "html": {
+            "href": "https://bitbucket.org/dcgf/pessoal/branch/master"
+          }
+        },
+        "default_merge_strategy": "merge_commit",
+        "merge_strategies": ["merge_commit", "squash", "fast_forward"],
+        "type": "branch",
+        "name": "master"
+      },
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commits?include=1f92186ecc6491c1880a29ce828244fce5bd7d36&exclude=30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+        },
+        "html": {
+          "href": "https://bitbucket.org/dcgf/pessoal/branches/compare/1f92186ecc6491c1880a29ce828244fce5bd7d36..30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/diff/1f92186ecc6491c1880a29ce828244fce5bd7d36..30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+        }
+      },
+      "truncated": false,
+      "commits": [
+        {
+          "hash": "1f92186ecc6491c1880a29ce828244fce5bd7d36",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/1f92186ecc6491c1880a29ce828244fce5bd7d36"
+            },
+            "comments": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/1f92186ecc6491c1880a29ce828244fce5bd7d36/comments"
+            },
+            "patch": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/patch/1f92186ecc6491c1880a29ce828244fce5bd7d36"
+            },
+            "html": {
+              "href": "https://bitbucket.org/dcgf/pessoal/commits/1f92186ecc6491c1880a29ce828244fce5bd7d36"
+            },
+            "diff": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/diff/1f92186ecc6491c1880a29ce828244fce5bd7d36"
+            },
+            "approve": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/1f92186ecc6491c1880a29ce828244fce5bd7d36/approve"
+            },
+            "statuses": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/1f92186ecc6491c1880a29ce828244fce5bd7d36/statuses"
+            }
+          },
+          "author": {
+            "raw": "fjuniorr <fjunior.alves.oliveira@gmail.com>",
+            "type": "author",
+            "user": {
+              "username": "fjuniorr",
+              "display_name": "Francisco Alves",
+              "account_id": "557058:6fa18923-3931-42d1-9c49-ff5d303b03f5",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/users/fjuniorr"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/fjuniorr/"
+                },
+                "avatar": {
+                  "href": "https://bitbucket.org/account/fjuniorr/avatar/"
+                }
+              },
+              "type": "user",
+              "uuid": "{e80acf8e-5750-4aae-8694-f3e107a7a7bf}"
+            }
+          },
+          "summary": {
+            "raw": "Update roxygen version in DESCRIPTION\n",
+            "markup": "markdown",
+            "html": "<p>Update roxygen version in DESCRIPTION<\/p>",
+            "type": "rendered"
+          },
+          "parents": [
+            {
+              "type": "commit",
+              "hash": "30efb8de8e94ad98d5ee2c881663419c652ae1dc",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/dcgf/pessoal/commits/30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+                }
+              }
+            }
+          ],
+          "date": "2018-09-26T18:37:20+00:00",
+          "message": "Update roxygen version in DESCRIPTION\n",
+          "type": "commit"
+        }
+      ],
+      "created": false,
+      "closed": false,
+      "new": {
+        "target": {
+          "hash": "1f92186ecc6491c1880a29ce828244fce5bd7d36",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/1f92186ecc6491c1880a29ce828244fce5bd7d36"
+            },
+            "html": {
+              "href": "https://bitbucket.org/dcgf/pessoal/commits/1f92186ecc6491c1880a29ce828244fce5bd7d36"
+            }
+          },
+          "author": {
+            "raw": "fjuniorr <fjunior.alves.oliveira@gmail.com>",
+            "type": "author",
+            "user": {
+              "username": "fjuniorr",
+              "display_name": "Francisco Alves",
+              "account_id": "557058:6fa18923-3931-42d1-9c49-ff5d303b03f5",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/users/fjuniorr"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/fjuniorr/"
+                },
+                "avatar": {
+                  "href": "https://bitbucket.org/account/fjuniorr/avatar/"
+                }
+              },
+              "type": "user",
+              "uuid": "{e80acf8e-5750-4aae-8694-f3e107a7a7bf}"
+            }
+          },
+          "summary": {
+            "raw": "Update roxygen version in DESCRIPTION\n",
+            "markup": "markdown",
+            "html": "<p>Update roxygen version in DESCRIPTION<\/p>",
+            "type": "rendered"
+          },
+          "parents": [
+            {
+              "type": "commit",
+              "hash": "30efb8de8e94ad98d5ee2c881663419c652ae1dc",
+              "links": {
+                "self": {
+                  "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commit/30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+                },
+                "html": {
+                  "href": "https://bitbucket.org/dcgf/pessoal/commits/30efb8de8e94ad98d5ee2c881663419c652ae1dc"
+                }
+              }
+            }
+          ],
+          "date": "2018-09-26T18:37:20+00:00",
+          "message": "Update roxygen version in DESCRIPTION\n",
+          "type": "commit"
+        },
+        "links": {
+          "commits": {
+            "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/commits/master"
+          },
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/dcgf/pessoal/refs/branches/master"
+          },
+          "html": {
+            "href": "https://bitbucket.org/dcgf/pessoal/branch/master"
+          }
+        },
+        "default_merge_strategy": "merge_commit",
+        "merge_strategies": ["merge_commit", "squash", "fast_forward"],
+        "type": "branch",
+        "name": "master"
+      }
+    }
+  ]
+} 
